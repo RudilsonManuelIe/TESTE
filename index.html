@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html land="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+        <title>roupas africanas</title>
+    </head>
+
+
+<body>
+  <img src="avatar.png" alt="Texto alternativo" title="Avatar" />
+  <img src="arquivo_inexistente.jpg" alt="Texto alternativo" title="Outra figura"/>
+
+  <figure>
+    <img src="http://meusite.com.br/assets/imagem.jpg" alt="Imagem">
+ 
+    <figcaption>Legenda da figura 1</figcaption>
+ </figure>
+
+ <a href="pagina2.html">Página 2</a>
+
+ <a href="#paragrafo3">Ir para o parágrafo 3</a>
+<!--outros elementos-->
+<p id="paragrafo3">Parágrafo no rodapé.</p>
+
+<table>
+  <tr>
+  <td>Linha 1, Coluna 1</td>
+  <td>Linha 1, Coluna 2</td>
+  </tr>
+  <tr>
+  <td>Linha 2, Coluna 1</td>
+  <td>Linha 2, Coluna 2</td>
+  </tr>
+  <tr>
+  <td>Linha 3, Coluna 1</td>
+  <td>Linha 3, Coluna 2</td>
+  </tr>
+  </table>
+
+  <table>
+    <thead>
+    <tr>
+    <th>Produto</th>
+    <th>Preço</th>
+    <th>Quantidade</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>Feijão</td>
+    <td>R$ 8,75</td>
+    <td>1</td>
+    </tr>
+    <tr>
+    <td>Arroz</td>
+    <td>R$ 4,99</td>
+    <td>2</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+    <td>Total</td>
+    <td></td>
+    <td>R$ 18,73</td>
+    </tr>
+    </tfoot>
+    </table>
+
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      </ol>
+
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        </ul>
+      
+        <ol type="I">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          </ol>
+        
+          <dl>
+            <dt>Título 1</dt>
+            <dd>Definição 1</dd>
+            <dt>Título 2</dt>
+            <dd>Definição 2</dd>
+            <dt>Título 3</dt>
+            <dd>Definição 3</dd>
+            </dl>
+          
+            <form action="salvar_dados.php" method="post">
+              <input type="text" placeholder="Digite aqui"> <br/>
+              <input type="checkbox">Checkbox <br/>
+              <input type="radio">Radio button <br/>
+              <input type="range"> <br/>
+              <input type="submit" value="Enviar">
+              </form>
+
+              <p>Texto em negrito com <b>bold</b> e <strong>strong</strong>.</p>
+              <p>Texto em itálico com <i>italics<i> e <em>emphasis</em>.</p>
+              <p>Texto <sup>sobrescrito</sup> e <sub>subscrito</sub>.</p>
+              <p>Texto <ins>inserido</ins> e <del>excluído</del>.</p>
+              <p>Texto <small>pequeno</small> e <mark>destacado</mark>.</p>
+            
+              <audio controls src="musica.mp3" >
+                Seu browser não suporta áudio.
+                </audio>
+
+                <audio controls src="musica.mp3" >
+                  <source src="musica.ogg" type="audio/ogg">
+                  <source src="musica.mp3" type="audio/mpeg">
+                  </audio>
+              
+                  <video src="video.mp4" width="640" height="480" controls>
+                    Seu browser não suporta vídeo HTML5.
+                    </video>
+
+                    <video width="640" height="480" controls>
+                      <source src="video.webm" type="video/webm">
+                      <source src="video.mp4" type="video/mp4">
+                      </video>
+
+                      <input type="text" value="input 1">
+                      <input type="text" value="input 2">
+                      <div><input type="text" value="input 3"></div>
+                      <div><input type="text" value="input 4"></div>
+                  
+                      <p>Este é um texto com um <span>
+                        trecho em destaque</span>.</p>
+                        <p>
+                        Este é um texto com um <span
+                        style="background: #1abc9c; border-radius:5px; padding:5px">
+                        trecho em destaque</span>.
+                        </p>
+                      
+
+
+
+
+
+                        <div class="row input-container">
+                          <h1 class="title_contato">Fale Conosco</h1>
+                          
+                          <form method="post" action="#">
+                              <div class="style-form-input full">
+                                  <input type="text" name="nome" required />
+                                  <label><i class="icon icon-user-1"></i>  Nome</label> 
+                              </div>
+                              
+                              <div class="style-form-input">
+                                  <input type="text" name="email" required />
+                                  <label><i class="icon icon-mail-1"></i> E-mail</label> 
+                              </div>
+                              
+                              <div class="style-form-input right">
+                                  <input type="text" name="assunto" required />
+                                  <label><i class="icon icon-info-circled"></i> Assunto</label> 
+                              </div>
+                              
+                              <div class="style-form-input full">
+                                  <textarea name="mensagem" required></textarea>
+                                  <label><i class="icon icon-comments"></i> Mensagem</label>
+                              </div>
+                              <div class="style-form-input full">
+                                  <input type="hidden" name="acao" value="enviar">
+                                  <button class="btn-submit">Enviar</button>
+                              
+                              </div>
+                          </form>
+                      </div>
+
+
+
+                      
+
+
+
+
+
+
+</body>
+</html>
